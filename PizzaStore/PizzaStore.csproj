@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common\Dough.cs" />
+    <Compile Remove="Common\Topping.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Stores\" />
+    <Folder Include="Stores\Base\" />
+    <Folder Include="Pizzas\" />
+    <Folder Include="Pizzas\Base\" />
+    <Folder Include="Pizzas\HUEPizzas\" />
+    <Folder Include="Pizzas\DNPizzas\" />
+    <Folder Include="Pizzas\HCMPizzas\" />
+  </ItemGroup>
+</Project>
